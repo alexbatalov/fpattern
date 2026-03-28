@@ -1,7 +1,7 @@
 /******************************************************************************
 * debug.h
 *
-* Copyright ©1997-2015 by David R. Tribble, all rights reserved.
+* Copyright Â©1997-2015 by David R. Tribble, all rights reserved.
 */
 
 
@@ -35,8 +35,11 @@ static const char	drt_debug_h_id[] =
  #define DEBUG	0
 #endif
 
+#include <stdio.h>
+
 #if DEBUG
- #define DL(e)	(opt_debug ? (void)(e) : (void)0)
+ // #define DL(e)	(opt_debug ? (void)(e) : (void)0)
+ #define DL(e)	((void)(e))
 #else
  #define DL(e)	((void)0)
 #endif
