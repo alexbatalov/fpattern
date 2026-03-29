@@ -51,7 +51,7 @@
 *
 *	Queries about this source code can be sent to: <david@tribble.com>
 *
-* Copyright �1997-2001 by David R. Tribble, all rights reserved.
+* Copyright ©1997-2001 by David R. Tribble, all rights reserved.
 */
 
 
